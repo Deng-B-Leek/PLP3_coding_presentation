@@ -4,7 +4,7 @@ PLP GROUP: PLP? - Airline Ticket Booking System - Activity 1 OOP
 ROLE HEADER LOG (Proof of Contribution):
 - Deng: Driver - Base Class Passenger, header log, file setup
 - Calvin: Driver - Child Classes Economy, Business, FirstClass
-- LUXE: Navigator - CLI Workflow Step 1 & 2 (Select Class + Base Data Entry)
+- Luxe: Navigator - CLI Workflow Step 1 & 2 (Select Class + Base Data Entry)
 - Adriel: Navigator - CLI Workflow Step 2 Dynamic Entry + Step 3 Summary + Error Handling
 - Davina: Presenter - Integration, testing, video, submission
 - Absent members: None
