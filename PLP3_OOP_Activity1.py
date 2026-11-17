@@ -35,7 +35,7 @@ class Economy(Passenger):
         base = super().get_passenger_info()
         return f"{base} | Class: Economy | Seat Preference: {self.seat_preference}"
 
-class Business(Passengers):
+class Business(Passenger):
     def __init__(self, name, location, destination, date, lounge_pass_code, luggage_allowance=100):
         super().__init__(name, location, destination, date)
         self.lounge_pass_code = lounge_pass_code
