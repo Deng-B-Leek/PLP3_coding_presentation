@@ -20,3 +20,7 @@ class Business(Passenger):
 
     def get_weight_allowance(self):
         return "100 kg"  # override
+
+    def get_passenger_info(self):
+        base_info = super().get_passenger_info()
+        return base_info + f"\nLounge Pass Code: {self.lounge_pass_code}\n---------------------------"
